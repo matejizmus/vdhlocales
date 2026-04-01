@@ -3,4 +3,214 @@
 [addon]
 
 # Video DownloadHelper description. 132 characters max.
+appDesc = '''Videók letöltése az internetről.'''
+
+# Global strings
+restore_purchase_button = '''Vásárlás visszaállítása'''
+get_premium_button = '''Vásárolj prémium előfizetést'''
+back = '''Vissza'''
+rm_notifications_all = '''Az összes értesítés elrejtése'''
+
+# Strings for the main panel
+waiting_for_media = '''Várakozás a médiára...'''
+nomedia_title = '''Nem találja a keresett médiát?'''
+nomedia_description = '''Indítsd el a videót (és ugorj át a hirdetéseken, ha vannak), hogy segíts a médiafájlok felismerésében. Vagy jelentsd a hiányzó médiafájlokat.'''
+nomedia_reload_button = '''Kényszer érzékelés'''
+nomedia_reload_button_tooltip = '''Kényszer oldal újratöltés (a cookie-k törlése)'''
+show_nomedia_button = '''Nincs videó?'''
+show_nomedia_button_tooltip = '''Kattintson ide, ha nem találja a videót'''
+setting_button_tooltip = '''Beállítások'''
+history_button_tooltip = '''Letöltési előzmények megjelenítése'''
+show_all_history_button = '''mindet mutat'''
+complete_title = '''Befejezve'''
+hide_complete_button = '''elrejt'''
+translate_button_tooltip = '''Segíts a VDH fordításában'''
+help_button_tooltip = '''Súgó'''
+
+# Downloaded media box
+open_source_tab_button_tooltip = '''Nyílt forráskód fül'''
+retry_download_button_tooltip = '''Letöltés újra'''
+delete_file_button_tooltip = '''Fájl törlése'''
+download_directory_button_tooltip = '''Letöltési mappa megjelenítése'''
+clear_downloaded_tooltip = '''Befejezett letöltések törlése'''
+show_in_popup_button_tooltip = '''Megjelenítés felugró ablakban'''
+show_in_sidebar_button_tooltip = '''Megjelenítés az oldalsávban'''
+video_not_playing_button_tooltip = '''Nem indul el a videó?'''
+play = '''Lejátszás'''
+warn_drm_tooltip = '''DRM-védelem észlelve'''
+
+# Strings for the settings panel.
+version_title = '''Verzió'''
+account_title = '''Fiók'''
+one_hundred_downloads_title = '''Már 100 videót töltöttél le!'''
+leave_review_description = '''Reméljük, tetszik a Video DownloadHelper :) Megtennéd, hogy írsz egy kedves értékelést a kiegészítő weboldalára?'''
+leave_review_button = '''Írj véleményt'''
+account_status = '''Állapot'''
+account_status_premium = '''Prémium (1 dollár)'''
+free_account = '''Ingyenes csomag'''
+copy_to_clipboard = '''Információk másolása a vágólapra'''
+my_account_button = '''Fiókom'''
+download_title = '''Letöltések'''
+show_notification = '''Értesítés megjelenítése a letöltés befejezésekor'''
+max_parallel_downloads = '''A párhuzamos letöltések maximális száma'''
+saveas_detected_warning = '''Észrevettük, hogy a böngészője a letöltés befejezése után megjeleníti a „Mentés másként” párbeszédpanelt. Javasoljuk, hogy a böngésző beállításaiban tiltsa le ezt a funkciót.'''
+change_saveas_setting = '''Beállítás módosítása'''
+download_directory_title = '''Könyvtár letöltése'''
+download_directory_description = '''A videókat az alapértelmezett böngésző letöltési mappájába tölti le a rendszer. Megadhat egy almappát is. A webhelyekhez tartozó letöltési mappákat a smartnaming eszközzel állíthatja be.'''
+change_browser_download_directory = '''A böngésző letöltési mappájának módosítása'''
+bad_download_subdirectory_warning = '''A megadott almappa nem érvényes.'''
+download_subdirectory = '''Alkönyvtár letöltése'''
+
+private_browsing_title = '''Privát böngészés'''
+private_browsing_warning = '''A Video DownloadHelper nem működik a magán- vagy inkognitó módban megnyitott ablakokban. Ezt az opciót manuálisan kell bekapcsolnia (ez nem kötelező).'''
+private_browsing_notifications = '''Értesítés megjelenítése a privát letöltések esetén'''
+private_browsing_button = '''A privát böngészés beállításainak módosítása'''
+throttle_youtube = '''A YouTube sebességének korlátozása (lassabb letöltés, de kisebb az esélye a blokkolásnak)'''
+prefer_original_audio = '''Eredeti audio előnyben részesítése'''
+settings_history_title = '''Történet'''
+transient_history_description = '''A letöltések teljes listájának megjelenítése a panelen'''
+history_limit = '''A letöltési előzmények törlése X nap elteltével'''
+appearance_title = '''Kinézet'''
+theme_title = '''Téma'''
+theme_light = '''világos'''
+theme_dark = '''sötét'''
+theme_system = '''rendszer'''
+popup_size_title = '''Ablak mérete'''
+popup_size_small = '''Kicsi'''
+popup_size_medium = '''Közepes'''
+popup_size_big = '''Nagy'''
+font_size_title = '''Betűméret'''
+font_size_default = '''Alapértelmezett'''
+font_size_large = '''Nagy'''
+font_size_verylarge = '''Nagyon nagy'''
+panel_position_title = '''A panel helyzete'''
+use_popup = '''Mutasd felugró ablakban'''
+use_sidebar = '''Mutasd az oldalsávban'''
+behavior_title = '''Viselkedés'''
+controls_title = '''Vezérlők'''
+show_in_context_menu = '''Parancsok elérése, jobb egérgombbal az oldalon'''
+restart_addon = '''Kiegészítő újratöltése'''
+reset_settings = '''Beállítások visszaállítása'''
+prefered_quality = '''Előnyben részesített videóminőség'''
+prefered_quality_highest = '''Legjobb minőség (lassú letöltés, nagy felbontás)'''
+prefered_quality_1080p = '''1080p (jó, alapértelmezett)'''
+prefered_quality_720p = '''720p (gyors letöltés, alacsony felbontás)'''
+prefered_quality_480p = '''480p (gyorsabb letöltés, alacsonyabb felbontás)'''
+prefer_mkv = '''Ha lehetséges, MKV formátumban töltsd le'''
+preview_mode_title = '''Média előnézete'''
+preview_mode_none = '''Letiltva'''
+preview_mode_video = '''Rövid videóelőnézet'''
+preview_mode_image = '''Kép'''
+media_discovered_ordering_title = '''Médiaválogatási stratégia'''
+order_media_smart = '''Okos (ajánlott)'''
+order_media_by_newest = '''Legújabbak előre'''
+order_media_by_oldest = '''A legrégebbi először'''
+
+# String for history page
+history_title = '''Letöltési előzmények'''
+history_warning = '''Nem rögzítjük a letöltési előzményeket. Szeretné, hogy a Video DownloadHelper megjegyezze a letöltési előzményeket?'''
+history_warning_2 = '''Ne aggódjon, minden az Ön számítógépén marad. Nagyra értékeljük az Ön adatainak védelmét.'''
+enable_history = '''Előzmények engedélyezése'''
+clear_history = '''Előzmények törlése'''
+disable_history = '''Ne jegyezd meg az előzményeim'''
+no_downloads_yet = '''Még nincs bejegyzés.'''
+
+# Various notifications
+download_failed = '''Sikertelen letöltés'''
+download_failed_description = '''Sajnos nem sikerült letöltenünk ezt a konkrét médiafájlt. Igyekszünk a lehető legtöbb weboldalt támogatni, ezért nagy segítséget jelentene, ha jelentenéd ezt a hibát (teljesen névtelenül!).'''
+download_interrupted = '''Letöltés megszakadt'''
+download_interrupted_description = '''Sikerült letöltenünk a fájlt, de hálózati probléma merült fel, ezért előfordulhat, hogy a fájl a vártnál rövidebb lett. Igyekszünk a lehető legtöbb weboldalt támogatni, ezért nagy segítséget jelentene, ha jelentenéd ezt a problémát (a jelentés névtelen!).'''
+download_with_drm_failed_description = '''Valami nem sikerült. Úgy véljük, hogy ez a videó DRM-mel van ellátva. A DRM-mel ellátott videókat nem támogatjuk.'''
+no_youtube = '''A YouTube-ról való letöltés nem engedélyezett'''
+no_youtube_description = '''Sajnos a Chrome Web Store nem engedélyezi a YouTube-videók letöltésére szolgáló bővítményeket, ezért nem tudtuk ezt a funkciót beépíteni a bővítmény Chrome-verziójába.'''
+no_youtube_description_2 = '''Kérjük használja a Firefox, vagy a Microsoft Edge böngészőt'''
+premium_required = '''Prémium tagság szükséges'''
+premium_yt_required_description = '''Premium-tagság nélkül a YouTube-videók letöltése csak az előző letöltéstől számított 2 órával később lehetséges.'''
+premium_hls_required_description = '''Premium-tagság nélkül HLS- vagy MPD-letöltést csak az előző letöltéstől számított 2 órával később lehet végrehajtani.'''
+premium_all_required_description = '''Premium-tagság nélkül a letöltés csak az előző letöltéstől számított 2 órával végezhető el.'''
+youtube_too_many_downloads = '''Hoppá, úgy tűnik, a YouTube blokkol'''
+youtube_too_many_downloads_description = '''A YouTube néha korlátozza a lekérhető videók számát. Sajnos ez ellen nem tehetünk semmit. Kérjük, próbálkozzon később újra.'''
+
+# Downloading media box
+stop = '''Leállít'''
+cancel = '''Mégse'''
+
+# Media we found in the page
+copy_url = '''URL másolása'''
+always_copy_url = '''Mindig másold az URL-t'''
+download_button = '''Letöltés'''
+download_as_button_and_menu = '''Letöltés máshogy'''
+rename_short = '''Átnevezés'''
+
+always_download_as_menu = '''Letöltés, mindig máshogy'''
+download_audio_button = '''Hang'''
+download_audio_and_video_menu = '''Hang- és videofájlok letöltése'''
+download_audio_only_menu = '''Hang letöltése'''
+audio_only_for_this_website = '''Csak hangfájlok, erről az oldalról'''
+details = '''Részletek'''
+
+# Report buttons
+report = '''Jelentés'''
+reporting = '''Jelentés küldése'''
+reported_thankyou = '''Köszönöm!'''
+
+[web]
+
+back = '''Vissza'''
+
+# On top of all pages.
+header_help = '''Súgó'''
+header_ask_question = '''Tegye fel kérdését'''
+
+# Context: activation page after receiving the magic link via email.
+activate_title = '''Aktiválás'''
+activate_pending = '''Folyamatban…'''
+activate_success = '''Sikeres'''
+activate_error = '''Hiba'''
+activate_no_addon_found = '''Nem találtam kiegészítőt. Telepítve van a kiegészítő?'''
+activate_no_method_found = '''Nincs rá módszer.'''
+activate_help_me = '''Segíts nekem.'''
+
+# Context: webpage to restore a purchase, which require the user to enter their email.
+issue_title = '''Vásárlás visszaállítása'''
+issue_submit = '''Küldés'''
+issue_thank_you = '''Köszönöm'''
+issue_enter_email = '''A vásárlás visszaállításához írja be azt az e-mail címet, amelyet a licenc megvásárlásakor használt:'''
+issue_email_sent = '''Épp most küldtünk Önnek egy e-mailt, amelyben megtalálja a termék aktiválásához szükséges linket.'''
+issue_or_digit = '''Vagy beírhatja az általunk küldött 6 számjegyű kódot is:'''
+issue_just_digit = '''Írja be az általunk küldött 6 számjegyű kódot:'''
+issue_i_have_a_code = '''(Kattintson ide, ha már rendelkezik kóddal)'''
+issue_i_have_a_key = '''(Kattintson ide, ha rendelkezik licenckulccsal)'''
+issue_key = '''Írja be a Video DownloadHelper licenckulcsát:'''
+
+# Context: this page - https://downloadhelper.net/
+landing_text1 = '''Tölts le bármilyen videót bármelyik weboldalról – egyszerűen működik!'''
+landing_text2 = '''1000+ weboldal támogatása'''
+landing_text3 = '''7 millió felhasználó bizalmát élvezi'''
+landing_text4 = '''4,5 csillag a bővítményre, a Store-ban'''
+landing_install_for_google = '''Telepítés a Chrome-hoz'''
+landing_install_for_mozilla = '''Telepítés a Firefoxhoz'''
+landing_install_for_microsoft = '''Telepítés az Edge-hez'''
+landing_feature1_title = '''HD-letöltés teljes sebességgel'''
+landing_feature1_description = '''Töltsön le videókat nagy felbontásban, maximális sebességgel. Büszkén állíthatjuk, hogy a mi letöltőmotorunk a leggyorsabb a piacon.'''
+landing_feature2_title = '''Archív videók'''
+landing_feature2_description = '''Tedd el kedvenc videóidat, hogy semmi se maradjon ki.'''
+landing_feature3_title = '''Élő közvetítés támogatása'''
+landing_feature3_description = '''Élvezze az élő közvetítések offline megtekintését, és szabaduljon meg a valós idejű korlátozásoktól.'''
+landing_feature4_title = '''Hang letöltése'''
+landing_feature4_description = '''Válassza ki a videók hanganyagát, és konvertálja azokat MP3-fájlokká vagy podcastokká a kényelmes hallgatás érdekében.'''
+
+# Context: this is for a "buy a license" webpage.
+premium_hero1 = '''Egyszer fizetsz, örökre használhatod'''
+premium_hero2 = '''Szerezzen be életre szóló licencet a Video DownloadHelperhez'''
+premium_hero3 = '''Tölts le annyi videót, amennyit csak akarsz, korlátozás nélkül.'''
+premium_supported_payment_methods = '''Támogatott fizetési módok'''
+premium_buy = '''vásárlás'''
+
+# Context: the page that opens after the addon gets installed.
+welcome_text = '''Mostantól egyetlen videót sem fogsz kihagyni!'''
+welcome_pin_message = '''Rögzítse a bővítmény ikonját az eszköztárra:'''
+
+
+# Video DownloadHelper description. 132 characters max.
 appDesc = "Download Videos from the Web."
